@@ -16,7 +16,7 @@ package parcial2;
 
     @Override
     public void defender(int daño) {
-    int dañoRecibido = daño - 3;
+    int dañoRecibido = daño - 5;
     if (dañoRecibido < 0) {
         dañoRecibido = 0;
     }
